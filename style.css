@@ -1,0 +1,80 @@
+body{
+    background-image: url("bc.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(5, 0, 0);
+    display: cover;
+    background-color: rgb(12, 11, 11);
+    color: rgb(233, 215, 215);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(206, 161, 203);
+}
+h1{
+    color: rgba(136, 190, 151, 0.482);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: rgb(220, 228, 212) 2px 2px 2px;
+    
+}
+
+span{
+    color: rgb(25, 244, 5);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: rgb(64, 253, 7) 2px 2px 2px;
+}
+
+h2{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button{
+    background-color: #000;
+    color: rgb(16, 225, 89);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(45, 13, 206);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+/*animation t0 button*/
+button:hover{
+    background-color: rgb(16, 225, 89);
+    color: #000;
+    border: 2px solid rgb(45, 13, 206);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    animation: mymove 2s infinite;
+}
+button:active{
+    background-color: rgb(16, 225, 89);
+    color: #000;
+    border: 2px solid rgb(45, 13, 206);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    animation: mymove 2s infinite;
+}
+@keyframes mymove {
+    0% {background-color: rgb(235, 232, 232);}
+    50% {background-color: rgb(45, 13, 206);}
+    75% {background-color: rgb(180, 60, 220);}
+    100% {background-color: rgb(29, 190, 239);}
+}
+
+
